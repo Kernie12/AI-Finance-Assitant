@@ -57,7 +57,7 @@ def top_categories():
     )
     return chart
 
-co = cohere.Client("U7gUj0Z8JRfky9hJnFJ2zOvhsaA9KZgZRDIS6hBN")  
+co = cohere.Client("Your-Cohere-Api-Key")  
 
 def ask_advisor(question):
     try:
